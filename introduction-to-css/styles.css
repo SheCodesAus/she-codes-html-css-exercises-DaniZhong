@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 html {
     font-family: 'Raleway', sans-serif;
     background-color: #fff;
@@ -13,6 +13,10 @@ header {
     text-align: center;
     background-color: #6b469a;
     padding: 10px;
+    margin: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+
 }
 
 h1 {
@@ -31,12 +35,17 @@ nav {
     margin: 10px;
     padding: 10px;
     background-color: #999999;
+    width: 200px;
 }
 
 a {
     color: #fff;
     text-decoration: none;
     padding: 5px;
+}
+
+nav a {
+    display: block;
 }
 
 a:hover {
@@ -55,6 +64,12 @@ img {
     object-fit: cover;
     object-position: bottom;
 }
+
+#img-size{
+    width: 300px;
+    height: 200px;
+}
+
 
 footer {
     text-align: center;
